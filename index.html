@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock-container">
+        <div class="controls">
+            <input type="number" id="time" value="20">
+            <div class="buttons">
+                <img src="imgs/play-button.svg" alt="Start Timer" id='play'>
+                <img src="imgs/pause.svg" alt="Start Timer" id='pause'>
+                <img src="imgs/recycle.svg" alt="Start Timer" id='reset'>
+            </div>
+        </div>
+        <svg class="circle">
+            <circle r="190" cx="0" cy="200" transform="rotate(-90 100 100)"/>
+        </svg>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

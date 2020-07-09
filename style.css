@@ -1,0 +1,78 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#play {
+    width: 60px;
+    cursor: pointer;
+}
+
+#pause {
+    width: 60px;
+    cursor: pointer;
+}
+
+#reset {
+    width: 60px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#time {
+    height: 135px;
+    align-content: center;
+    font-size:85px;
+    text-align: center;
+    padding: 0;
+    border: none;
+    background: none;
+    width: 250px;
+    cursor: pointer;
+}
+
+.circle {
+    height: 400px;
+    width: 400px;
+}
+
+.clock-container {
+    /*  top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);*/
+    margin-top: 25%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    padding: none;
+    text-align: center;
+}
+
+circle {
+    fill: none;
+    stroke: blue;
+    stroke-width: 10;
+}
